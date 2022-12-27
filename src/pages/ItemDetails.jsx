@@ -22,7 +22,7 @@ const ItemDetails = () => {
       setnft(response.data);
       setLoading(true);
     });
-  }, []);
+  });
 
   return (
     <div id="wrapper">

@@ -17,7 +17,7 @@ const Author = () => {
       setAuthor(data);
     }
     getData();
-  }, []);
+  });
   return (
     <div id="wrapper">
       <div className="no-bottom no-top" id="content">

@@ -8,7 +8,7 @@ const Count = (expiryDate) => {
     setInterval(() => {
       numCounter();
     }, 0);
-  }, []);
+  });
 
   function numCounter() {
     const timeNow = expiryDate.time - Date.now();
